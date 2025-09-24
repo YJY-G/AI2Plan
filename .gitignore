@@ -1,0 +1,67 @@
+# ---- OS / Editor ----
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# pytest / coverage / mypy
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Django / local DB
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# ---- Environment files ----
+.env
+.env.*
+!*.example
+
+# ---- Node / Frontend (Vite + Vue) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.nuxt/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ---- Cache / build outputs ----
+dist/
+node_modules/
+.parcel-cache/
+.cache/
+
+# ---- Local Vector DB / Embeddings ----
+vector_db/
+vector_store/
+**/qdrant/**
+
+# ---- Misc ----
+*.bak
+*.tmp
+*.temp
+Thumbs.db
+
